@@ -23,9 +23,6 @@ jobs:
 
       - name: Import data
         run: Rscript -e 'source("import_data.R")'
-        
-      - name: Generate report
-        run: Rscript -e 'source("generate_report.R")'
 
       - name: Commit results
         run: |
