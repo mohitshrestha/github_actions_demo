@@ -22,6 +22,7 @@ jobs:
 
       - name: Import data
         run: Rscript -e 'source("import_data.R")'
+        run: Rscript -e 'source("report.qmd")'
 
       - name: Commit results
         run: |
