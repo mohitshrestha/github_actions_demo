@@ -1,6 +1,10 @@
+name: publish-report
+
 on:
   push:
-    branches: main
+    branches: [ "main" ]
+
+  workflow_dispatch:
 
 jobs:
   import-data:
